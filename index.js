@@ -74,7 +74,7 @@ function draw() {
 
   for (let i = 0; i < values.length; i++) {
     ctx.fillStyle =
-      states[i] == 0 ? "#E0777D" : states[i] == 1 ? "#D6FFB7" : "white";
+      states[i] == 0 ? "#E0777D" : states[i] == 1 ? "#6DEF0C" : "white";
     ctx.fillRect(i * w, canvas.height - values[i], w, values[i]);
   }
 }
